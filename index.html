@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CodeWars</title>
+		<link rel="stylesheet" href="./style.css" />
+		<script src="./script.js" defer></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<header class="header__container flex__row__center">
+			<img src="./assets/task.png" alt="task-icon" class="header__image" />
+			<div class="flex__column__center">
+				<h2>R2-D2</h2>
+				<h1>TO-DO</h1>
+			</div>
+		</header>
+		<main class="main__container flex__row__center">
+			<section class="form__container">
+				<form name class="form-wrapper flex__column__center">
+					<input
+						type="text"
+						placeholder="Insert a new task here..."
+						id="todo__title"
+					/>
+					<button type="button" id="submit__button" class="btn btn10">
+						<span></span><span></span><span></span><span></span> <span></span
+						><span></span><span></span><span></span> <span></span><span></span
+						><span></span>
+						<h4>Add a task</h4>
+					</button>
+				</form>
+			</section>
+			<section class="list__container">
+				<ul
+					class="list-wrapper flex__column__center"
+					id="list__items-wrapper"
+				></ul>
+			</section>
+		</main>
+	</body>
+</html>
